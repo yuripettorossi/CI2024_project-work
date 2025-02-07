@@ -5,7 +5,7 @@ def f1(x: np.ndarray) -> np.ndarray:
     return np.sin(x[0])
 
 def f2(x: np.ndarray) -> np.ndarray: 
-    return (((((x[1] + x[0]) * (np.exp(2.27) * (x[2] + x[0]))) - np.abs((np.exp(3.80) * np.exp(2.29)))) * ((np.cosh(np.exp(2.29)) + (np.exp(3.99) * np.exp(3.99))) + (((x[1] + x[0]) * (x[0] + x[2])) * (np.exp(2.42) * np.exp(3.56)))))) * np.tanh(((np.tanh(x[0]) - (np.arctan(x[0]) * np.exp(1.80))) + (np.tanh(x[0]) - ((x[2] + x[1]) * np.tanh(1.67)))))
+    return (np.cosh(x[0]) * np.exp(((x[0] / x[0]) - (np.tanh(np.tanh((x[2] * x[0]))) - (x[0] + x[0])))))
 
 def f3(x: np.ndarray) -> np.ndarray:
     return (np.abs(8.721543058172322 * x[0]) - (3.547995991966668 * x[2] - (-5.942384762879078 * x[1]))) - (np.arctan(-77.23937875751111 * x[1]) - (-5.848196391239853 * x[1]))
