@@ -6,7 +6,7 @@ This project has been developed in collaboration with [Federico Fortunati](https
 
 ## Introduction
 
-The goal of the project has been the development of a symbolic regression to extract a formula that best represents the distribution of 8 datasets.
+The goal of the project was the development of a symbolic regression algorithm to extract a mathematical formula that best represents the distribution of 8 datasets.
 
 ## Methodology
 
@@ -23,7 +23,6 @@ The following is the list of operators implemented:
 - Division;
 - Power;
 - Square Root;
-- Cube Root;
 - Logarithm;
 - Sine;
 - Cosine;
