@@ -11,18 +11,17 @@ def f3(x: np.ndarray) -> np.ndarray:
     return np.subtract(np.add(np.subtract(np.multiply(np.multiply(x[0],x[0]),2),np.multiply(np.sinh(x[1]),2)),np.multiply(np.tanh(6.5153),4)),np.multiply(x[2],3))
 
 def f4(x: np.ndarray) -> np.ndarray:
-    return ((3.22 * np.exp((np.cos(x[1]) * (np.tanh(1.99) * np.tanh((0.16 + np.cosh(1.04))))))) + ((np.tanh((0.27 + np.cosh(x[1]))) * ((np.tanh((2.62 + (3.69 + x[0]))) * (((np.tanh(((x[1] + np.exp(1.04)) + 3.56)) * np.tanh((x[1] + np.cosh(2.55)))) * 1.06) * np.tanh((0.52 + np.cosh(x[1]))))) * np.exp(np.cosh(np.tanh(x[1]))))) * np.cos(x[1])))
-    # return np.multiply(np.add(np.cos(np.sinh(np.sinh(np.cos(x[1])))),np.sinh(np.sinh(np.sinh(np.cos(x[1]))))),np.add(np.sinh(np.sinh(np.cos(x[1]))),np.sinh(2.00)))
+    return np.cosh(np.cosh((np.arctan(-3.2684) + np.divide(x[0],x[0])))) + np.sinh((np.cosh(np.cosh(np.cosh((np.arctan(-1.3125) + np.divide(x[0],x[0]))))) * np.tanh(np.cos(x[1])))) + (np.cosh((np.arctan(-1.8241) + (x[0] / 13.9523))) + np.sinh((np.cosh(np.cosh(np.arctan(-2.0000))) * np.tanh(np.cos(x[1])))))
 
 def f5(x: np.ndarray) -> np.ndarray:
-    return (((((((np.log((np.cosh(np.sinh(x[0])) ** (np.log(np.cosh(x[0])) - np.log(np.cosh(x[0]))))) * x[0]) * x[0]) * x[0]) * x[0]) * x[0]) * x[0]) * x[0])
+    return np.multiply(np.subtract(np.add(np.subtract(np.multiply(np.cosh(x[1]),np.sin(x[0])),np.cosh(x[1])),np.add(x[1],x[0])),np.tanh(np.subtract(np.add(x[1],x[0]),np.cosh(x[1])))),np.cos(np.arctan(np.sinh(np.sinh(-4.3606)))))
 
 def f6(x: np.ndarray) -> np.ndarray:
-    return (1.6943887875521109 * x[1]) + ((-6.0562334247427 * x[0]) * np.abs(0.11473376637346892))
-    # return np.subtract(np.multiply(x[1],2.69),np.arctan(x[0]))
+    # return (1.6943887875521109 * x[1]) + ((-6.0562334247427 * x[0]) * np.abs(0.11473376637346892))
+    return (((np.tanh(x[0]) + (x[1] - x[0])) - (x[1] / 5.3981)) + x[1])
 
 def f7(x: np.ndarray) -> np.ndarray:
-    return (np.exp(x[0]) ** x[1]) + np.cos(np.abs(np.cosh(x[1]))) + np.cos(np.exp((np.exp(x[0]) ** x[1]))) + np.cos(np.cosh(x[0])) + ((np.cos(np.exp((np.exp(x[0]) ** x[1]))) + ((np.exp(x[0]) ** x[1]) + (np.exp(x[0]) ** x[1]))) + ((np.exp(x[0]) ** x[1]) + (np.exp(x[0]) ** x[1])))
-  
+    return (np.cosh(np.exp(np.cos((x[1] - x[0])))) + ((np.exp((x[0] * x[1])) + np.cosh(np.exp(np.cos((x[1] - x[0]))))) * (x[1] * x[0])))
+
 def f8(x: np.ndarray) -> np.ndarray: 
     return  ((np.sinh(x[5])) + np.multiply(x[5],7) - 6.7372) * np.abs((np.sinh(x[5])) + np.multiply(x[5],15))
