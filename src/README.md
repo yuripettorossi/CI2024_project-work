@@ -1,4 +1,4 @@
-# CI2024_project-work
+# CI2024_project-work s331163
 Repository for the 2024/2025 project work of Computational Intelligence course.
 
 ## Contributors
