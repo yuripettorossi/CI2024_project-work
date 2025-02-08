@@ -5,10 +5,10 @@ def f1(x: np.ndarray) -> np.ndarray:
     return np.sin(x[0])
 
 def f2(x: np.ndarray) -> np.ndarray: 
-    return (np.cosh(x[0]) * np.exp(((x[0] / x[0]) - (np.tanh(np.tanh((x[2] * x[0]))) - (x[0] + x[0])))))
+    return (x[0] * np.cosh(((np.cos((x[0] / 4.0000)) + 7.0000) + 7.0000)))
 
 def f3(x: np.ndarray) -> np.ndarray:
-    return np.subtract(np.subtract(np.subtract(np.subtract(np.subtract(np.subtract(np.subtract(np.cosh(x[0]),np.sinh(x[1])),x[1]),np.sinh(x[1])),x[2]),x[2]),x[2]),-5.62)
+    return np.subtract(np.add(np.subtract(np.multiply(np.multiply(x[0],x[0]),2),np.multiply(np.sinh(x[1]),2)),np.multiply(np.tanh(6.5153),4)),np.multiply(x[2],3))
 
 def f4(x: np.ndarray) -> np.ndarray:
     return ((3.22 * np.exp((np.cos(x[1]) * (np.tanh(1.99) * np.tanh((0.16 + np.cosh(1.04))))))) + ((np.tanh((0.27 + np.cosh(x[1]))) * ((np.tanh((2.62 + (3.69 + x[0]))) * (((np.tanh(((x[1] + np.exp(1.04)) + 3.56)) * np.tanh((x[1] + np.cosh(2.55)))) * 1.06) * np.tanh((0.52 + np.cosh(x[1]))))) * np.exp(np.cosh(np.tanh(x[1]))))) * np.cos(x[1])))
