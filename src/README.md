@@ -50,11 +50,13 @@ Mutations are applied with a low probability. The following is the list of possi
 - **Ephemeral Random Constants Mutation**: Mutation applied to constants. It substitutes the current value with a random one within a fixed range;
 - **Point Mutations**: Mutation applied to operators and variables. The node is substituted respectively with a randomly chosen operator and variable;
 - **Mutate all tree**: Mutation applied on the candidate level. It substitutes a candidate with a newly generated one.
+- **Hoist Mutation**: This Mutation samples a random subtree from an individual, and replace its genome with the selected subtree.
 
 ## Crossover
 
 - **Simple Crossover**: Select two parents. Choose a random subtree from each parent. Swap the two subtrees between parents, to generate two new genomes. There are no constraints about the position of the selected subtrees;
 - **Similar Height Crossover**: Swap subtrees with similar height. This helps in limiting the growth of candidate size.
+- **Fixed Height Crossover**: Swap subtrees of fixed height.
 
 ## Evolution strategy
 
@@ -69,5 +71,6 @@ The genetic programming algorithm is developed as follow:
   - Offspring generation through Crossover or Mutation;
   - Merge Offspring with parents;
   - Select top candidates with lowest MSE through fitness proportional method.
+  - If, for a fixed number of generations, the lowest value of MSE is not further lowered, all the population, except the top individual, is re-initiated using the half and half method (*Random Restart*). 
   
-In order to stay consistent with the traditional implementation of genetic programming, we have implemented mutation with a low probability. This means that the algorithm needs a consistent amount of candidates to ensure diversity among the population, which is vital to minimize the risk of converging to local optima due to lack of genotype diversity.
+In order to stay consistent with the traditional implementation of genetic programming, we have implemented mutation with a low probability. This means that the algorithm needs a consistent amount of candidates to ensure diversity among the population, which is vital to minimize the risk of converging to local optima due to lack of genotype diversity. 
